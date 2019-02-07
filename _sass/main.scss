@@ -52,3 +52,17 @@ ul.green { background-color: greenyellow; }
 ul.gold { background-color: gold; }
 ul.blue { background-color: lightblue; }
 ul.cyan { background-color: lightcyan; }
+
+.i::before {
+  width: 1em;
+  height: 1em;
+  content: ' ';
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+.challenge::before { background-image: url('../icons/challenge.svg'); }
+.accept::before { background-image: url('../icons/accept.svg'); }
+.turnin::before { background-image: url('../icons/turnin.svg'); }
+.complete::before { background-image: url('../icons/complete.svg'); }
+.progress::before { background-image: url('../icons/progress.svg'); }
+.transition::before { background-image: url('../icons/transition.svg'); }

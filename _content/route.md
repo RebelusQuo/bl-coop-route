@@ -1,8 +1,9 @@
-{:challenge: .fa.fa-hand-peace-o}
-{:accept: .fa.fa-question}
-{:progress: .fa.fa-refresh}
-{:turnin: .fa.fa-share}
-{:complete: .fa.fa-check}
+{:challenge: .i.challenge}
+{:accept: .i.accept}
+{:progress: .i.progress}
+{:turnin: .i.turnin}
+{:complete: .i.complete}
+{:transition: .i.transition}
 
 **Host Lilith, Client Roland**
 
@@ -67,7 +68,7 @@
 - **L** <i/>{:: accept} Nine-Toes: Take Him Down
 ^
 {: .blue}
-- Enter Skag Gully
+- <i/>{:: transition} Skag Gully
 - <i/>{:: progress} Nine-Toes: Take Him Down
 ^
 {: .gold}
@@ -76,7 +77,7 @@
 </div>
 
 <div class="red">
-- Enter Arid Badlands
+- <i/>{:: transition} Arid Badlands
 ^
 {: .aqua}
 - **L** heads for T.K. Baha, **R** for Fyrestone
@@ -127,10 +128,11 @@
   - Get A Little Blood On The Tires
   - **R** <i/>{:: challenge} Killing Spree
     - Restart at Lost Cave if facing badass Skags
-- Enter Lost Cave
+- <i/>{:: transition} Lost Cave
 ^
 {: .green}
-- Save/Restart, then enter Arid Badlands
+- Restart
+- <i/>{:: transition} Arid Badlands
 {: .gold}
 </div>
 
@@ -142,7 +144,7 @@
   - **R** <i/>{:: accept} Sledge: To The Safe House
 - **R** Drives to Fyrestone
   - **R** <i/>{:: turnin} Get A Little Blood On The Tires
-- **L** Enters Lost Cave
+- **L** <i/>{:: transition} Lost Cave
 ^
 {: .blue}
 - Farm until level 16
@@ -152,16 +154,16 @@
 </div>
 
 <div class="blue">
-- Head for Sledge's Safehouse
+- <i/>{:: transition} Arid Badlands, <i/>{:: transition} Arid Hills, <i/>{:: transition} Sledge's Safehouse
   - <i/>{:: progress} Sledge: To The Safe House
-- Head for Outpost Arid Hills
+- <i/>{:: transition} Arid Badlands
   - <i/>{:: turnin} Sledge: To The Safe House
   - <i/>{:: accept} Sledge: Battle For The Badlands
-- Drive to Headstone Mine
+- Drive, <i/>{:: transition} Headstone Mine
   - Save at the Sledge save point
   - <i/>{:: progress} Sledge: Battle For The Badlands
   - Pick up and dup: Sledge's Shotgun 
-- Enter Arid Badlands
+- <i/>{:: transition} Arid Badlands
 {: .pink}
 </div>
 
@@ -170,7 +172,7 @@
 - **L** <i/>{:: turnin} Sledge: Battle For The Badlands
 - **L** <i/>{:: accept} Leaving Fyrestone
 - **R** <i/>{:: progress} Leaving Fyrestone
-- **R** Enters Dahl Headlands
+- **R** <i/>{:: transition} Dahl Headlands
 ^
 {: .aqua}
 - **R**:
@@ -202,7 +204,7 @@
 <div class="green">
 - <i/>{:: complete} Road Warriors: Hot Shots
 - <i/>{:: progress} Road Warriors: Bandit Apocalypse
-- Enter New Haven
+- <i/>{:: transition} New Haven
 ^
 {: .cyan}
 - At New Haven:
@@ -210,11 +212,11 @@
   - **L** <i/>{:: turnin} Road Warriors: Bandit Apocalypse
   - **L** <i/>{:: accept} Power To The People
   - **R** Activates Scooter, West Gate
-    - **R** Then drives to Rust Commons West transition point
+    - **R** Then drives to Rust Commons West transition point (<i/>{:: transition})
   - **L** Activates the rest
   - **L** <i/>{:: turnin} Power To The People
   - **L** <i/>{:: accept} Seek Out Tannis
-- **R** Enters Rust Commons West once **L** sits in her car again
+- **R** <i/>{:: transition} Rust Commons West once **L** sits in her car again
 {: .pink}
 </div>
 
@@ -223,13 +225,13 @@
   - **L** <i/>{:: turnin} Seek Out Tannis
   - **L** <i/>{:: accept} Meet 'Crazy' Earl
 - **R** Drives to The Outeryard
-- **R** Drives to Trecher's Landing transition point
-  - **R** Enters Trecher's Landing once **L** is done
+- **R** Drives to Trecher's Landing transition point (<i/>{:: transition})
+  - **R** <i/>{:: transition} Trecher's Landing once **L** is done
 ^
 {: .aqua}
 - Start checking for Corrosive, better Bouncing Betty, and Shield
 - Warp to The Outeryard
-- Enter Earl's Scrapyard
+- <i/>{:: transition} Earl's Scrapyard
 - <i/>{:: turnin} Meet 'Crazy' Earl
 - <i/>{:: complete} Get Off My Lawn!
 - <i/>{:: accept} Hair Of The Dog
@@ -243,7 +245,7 @@
 - <i/>{:: turnin} Hair Of The Dog
 - <i/>{:: accept} The Next Piece
 - Warp to The Underpass
-- Drive to and enter Rust Common East
+- Drive, <i/>{:: transition} Rust Common East
 {: .blue}
 </div>
 
@@ -289,7 +291,7 @@
 {: .green}
 - <i/>{:: complete} Jaynistown: Cleaning Up Your Mess
 - <i/>{:: accept} Another Piece Of The Puzzle
-- Enter Trash Coast
+- <i/>{:: transition} Trash Coast
 {: .gold}
 </div>
 
@@ -305,13 +307,13 @@
 </div>
 
 <div class="blue">
-- Drive to and enter Old Haven
+- Drive, <i/>{:: transition} Old Haven
 - <i/>{:: turnin} Smoke Signals: Investigate Old Haven
 - Restart if missing Corrosive, Bouncing Betty, or Shield
 - **L** <i/>{:: turnin} Not Without My Claptrap
 - **L** <i/>{:: accept} Final Piece
 - Exit Old Haven
-- Drive to and enter Salt Flats
+- Drive, <i/>{:: transition} Salt Flats
 ^
 {: .cyan}
 - <i/>{:: complete} The Final Piece
@@ -323,18 +325,18 @@
 </div>
 
 <div class="crimson">
-- Drive to and enter The Backdoor
+- Drive, <i/>{:: transition} The Backdoor
 ^
 {: .green}
 - Buy Grenade SDU, and optionally Shotgun SDU
 - Kill McCloud
-- Enter Crimson Fastness
+- <i/>{:: transition} Crimson Fastness
 ^
 {: .gold}
 - **R** <i/>{:: turnin} Get Some Answers
 - **L** <i/>{:: complete} Find the Echo Command Console
 - **L** <i/>{:: accept} Reactivate the Echo Comm System
-- Enter Crimson Enclave
+- <i/>{:: transition} Crimson Enclave
 ^
 {: .blue}
 - <i/>{:: progress} Reactivate the Echo Comm System
@@ -342,13 +344,13 @@
   - **R** Activates the north tower
   - Restart
   - **L** Activates the south tower again
-  - **R** Enters Crimson Fastness
+  - **R** <i/>{:: transition} Crimson Fastness
 ^
 {: .cyan}
 - **L** dies from Bouncing Betty grenades
   - **L** <i/>{:: turnin} Reactivate the Echo Comm System
-- **R** Enters Crimson Enclave,
-  - Then Enters Crimson Fastness, and back to Crimson Enclave
+- **R** <i/>{:: transition} Crimson Enclave,
+  - Then <i/>{:: transition} Crimson Fastness, and back to <i/>{:: transition} Crimson Enclave
   - <i/>{:: accept} (Automatically) Find Steele
 - Buy Grenades and HP packs
 - Warp to Salt Flats
@@ -356,9 +358,9 @@
 </div>
 
 <div class="darkblue">
-- Drive to and enter The Descent,
-  - Enter Eridian Promontory,
-  - Enter The Vault
+- Drive, <i/>{:: transition} The Descent,
+  - <i/>{:: transition} Eridian Promontory,
+  - <i/>{:: transition} The Vault
 ^
 {: .aqua}
 - Restart for Skill Reset
