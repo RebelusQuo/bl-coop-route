@@ -4,6 +4,7 @@
 {:turnin: .i.turnin}
 {:complete: .i.complete}
 {:transition: .i.transition}
+{:warp: .i.warp}
 
 **Host Lilith, Client Roland**
 
@@ -230,21 +231,21 @@
 ^
 {: .aqua}
 - Start checking for Corrosive, better Bouncing Betty, and Shield
-- Warp to The Outeryard
+- <i/>{:: warp} The Outeryard
 - <i/>{:: transition} Earl's Scrapyard
 - <i/>{:: turnin} Meet 'Crazy' Earl
 - <i/>{:: complete} Get Off My Lawn!
 - <i/>{:: accept} Hair Of The Dog
-- Warp to Trecher's Landing
+- <i/>{:: warp} Trecher's Landing
 ^
 {: .green}
 - <i/>{:: progress} Hair Of The Dog
-- Warp to Earl's Scrapyard
+- <i/>{:: warp} Earl's Scrapyard
 ^
 {: .gold}
 - <i/>{:: turnin} Hair Of The Dog
 - <i/>{:: accept} The Next Piece
-- Warp to The Underpass
+- <i/>{:: warp} The Underpass
 - Drive, <i/>{:: transition} Rust Common East
 {: .blue}
 </div>
@@ -256,12 +257,12 @@
 - **L** Heads to Krom's Canyon
   - **L** attempts to reach the transition once **R** reach The Cauldron
 - <i/>{:: progress} The Next Piece
-- Warp to The Underpass
+- <i/>{:: warp} The Underpass
 ^
 {: .cyan}
 - **L** <i/>{:: turnin} The Next Piece
 - **L** <i/>{:: accept} Jaynistown: Secret Rendezvous
-- **R** Warp to The Cauldron
+- **R** <i/>{:: warp} The Cauldron
 ^
 {: .pink}
 - From The Cauldron:
@@ -273,7 +274,7 @@
 - **R** Heads to Taylor Kobb
   - **R** <i/>{:: turnin} Jaynistown: A Brother's Love
   - **R** <i/>{:: accept} Jaynistown: Spread The Word
-- **L** Warps to New Haven
+- **L** <i/>{:: warp} New Haven
 {: .aqua}
 </div>
 
@@ -286,7 +287,7 @@
 - **R** <i/>{:: turnin} Jaynistown: Unintended Consequences
 - **R** <i/>{:: accept} Jaynistown: Cleaning Up Your Mess
 - **R** <i/>{:: accept} Smoke Signals: Investigate Old Haven
-- **R** Warps to The Cauldron
+- **R** <i/>{:: warp} The Cauldron
 ^
 {: .green}
 - <i/>{:: complete} Jaynistown: Cleaning Up Your Mess
@@ -297,12 +298,12 @@
 
 <div class="orange">
 - <i/>{:: progress} Another Piece Of The Puzzle
-- Warp to The Underpass
+- <i/>{:: warp} The Underpass
   - **L** <i/>{:: turnin} Another Piece Of The Puzzle
   - **L** <i/>{:: accept} Not Without My Claptrap
-  - **R** Warp to Trash Coast
+  - **R** <i/>{:: warp} Trash Coast
 - Farm Rakk Hive twice more
-- Warp to The Cauldron
+- <i/>{:: warp} The Cauldron
 {: .blue}
 </div>
 
@@ -353,7 +354,7 @@
   - Then <i/>{:: transition} Crimson Fastness, and back to <i/>{:: transition} Crimson Enclave
   - <i/>{:: accept} (Automatically) Find Steele
 - Buy Grenades and HP packs
-- Warp to Salt Flats
+- <i/>{:: warp} Salt Flats
 {: .pink}
 </div>
 
