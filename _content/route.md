@@ -8,79 +8,69 @@
 
 **Host Lilith, Client Roland**
 
-<div class="darkblue">
+{:.route__chapter}
+<div>
 - **L** <i/>{:: challenge} What's in here - 35/50 + chest
 - **R** Trigger Claptrap zones
 - **L** <i/>{:: challenge} Relentless
   - **R** Tries it if **L** gets it before the crawl gate
 - **L** Picks up chest loot: Hyperion pistol (the red one)
 ^
-{: .pink}
 - <i/>{:: turnin} Fresh off the Bus
 - <i/>{:: accept} The Doctor Is In
 ^
-{: .aqua}
 - Restart
 ^
-{: .green}
 - **L** <i/>{:: challenge} What's in here - ~45/50 (in Fyrestone)
 - **R** <i/>{:: turnin} The Doctor Is In
 - **R** <i/>{:: accept} Skags At The Gate
   - **L** Triggers Claptrap zones
   - **L** Lure skags from nerby dens
 ^
-{: .gold}
 - **R** Helps kill bandits at the gate
 - <i/>{:: accept} Claptrap Rescue
 - **R** <i/>{:: progress} Claptrap Rescue
   - **R** Heads for start chest if it didn't give a sniper,
   - Otherwise helps turn in quests
 ^
-{: .blue}
 - **L** <i/>{:: turnin} Claptrap Rescue
 - **R**/**L** <i/>{:: turnin} Skags At The Gate
 - **R**/**L** <i/>{:: complete} Fix'er Upper
 - **R**/**L** <i/>{:: accept} Blinding Nine-Toes
 - <i/>{:: challenge} Impulse buyer
 ^
-{: .cyan}
 - Restart
   - Dup start chest weapon
-{: .pink}
 </div>
 
-<div class="orange">
+{:.route__chapter}
+<div>
 - **L** <i/>{:: challenge} What's in here - 50/50
 - <i/>{:: progress} Blinding Nine-Toes
   - **L** <i/>{:: challenge} Chain Killer
   - **R** Assists **L**
 - **R** Heads to Fyrestone, **L** to T.K. Baha
 ^
-{: .aqua}
 - **R** <i/>{:: turnin} Blinding Nine-Toes
 - **R** <i/>{:: accept} Nine-Toes: Meet T.K. Baha
 - **L** <i/>{:: turnin} Nine-Toes: Meet T.K. Baha
 - **L** <i/>{:: complete} Nine-Toes: T.K.'s Food
 ^
-{: .green}
 - **L** <i/>{:: accept} Got Grenades?
 - **R** Buy grenades and checks for Bouncing Betty
 - **L** <i/>{:: turnin} Got Grenades?
 - **L** <i/>{:: accept} Nine-Toes: Take Him Down
 ^
-{: .blue}
 - <i/>{:: transition} Skag Gully
 - <i/>{:: progress} Nine-Toes: Take Him Down
 ^
-{: .gold}
 - Restart
-{: .pink}
 </div>
 
-<div class="red">
+{:.route__chapter}
+<div>
 - <i/>{:: transition} Arid Badlands
 ^
-{: .aqua}
 - **L** heads for T.K. Baha, **R** for Fyrestone
 - **L** <i/>{:: turnin} Nine-Toes: Take Him Down
 - **L** <i/>{:: accept} Nine-Toes: Time To Collect
@@ -92,7 +82,6 @@
 - **R** <i/>{:: accept} Bone Head's Theft
 - **R** Once **L** reach Outpost Arid Badlands, die at Bone Head's camp to respawn at the outpost
 ^
-{: .green}
 - Use cars to <i/>{:: progress} Bone Head's Theft
   - Pick up: Bone Shredder
   - Dup on next restart once having both this and Bouncing Betty
@@ -100,27 +89,23 @@
 - <i/>{:: complete} The Piss Wash Hurdle
   - <i/>{:: challenge} Orbit Achieved
 ^
-{: .gold}
 - Restart
-{: .blue}
 </div>
 
-<div class="blue">
+{:.route__chapter}
+<div>
 - <i/>{:: complete} Return To Zed
 - <i/>{:: accept} Sledge: Meet Shep
 - <i/>{:: accept} Get A Little Blood On The Tires
 ^
-{: .cyan}
 - Restart until getting Bouncing Betty if still missing
 ^
-{: .pink}
 - Head for Outpost Arid Badlands
 - <i/>{:: turnin} Sledge: Meet Shep
 - <i/>{:: accept} Sledge: The Mine Key
 - <i/>{:: accept} Get The Flock Outta Here
 - <i/>{:: accept} Braking Wind
 ^
-{: .aqua}
 - **L** <i/>{:: progress}
   - Sledge: The Mine Key
   - Braking Wind
@@ -131,13 +116,12 @@
     - Restart at Lost Cave if facing badass Skags
 - <i/>{:: transition} Lost Cave
 ^
-{: .green}
 - Restart
 - <i/>{:: transition} Arid Badlands
-{: .gold}
 </div>
 
-<div class="darkblue">
+{:.route__chapter}
+<div>
 - **L** <i/>{:: challenge} Killing Spree
   - Restart at Lost Cave again if facing badass Skags
 - **R** Heads for Outpost Arid Badlands
@@ -147,14 +131,13 @@
   - **R** <i/>{:: turnin} Get A Little Blood On The Tires
 - **L** <i/>{:: transition} Lost Cave
 ^
-{: .blue}
 - Farm until level 16
   - Buy Shield, Grenade SDU
   - Pick up: Shotgun ~280+ dmg, decent fire rate (dup)
-{: .cyan}
 </div>
 
-<div class="blue">
+{:.route__chapter}
+<div>
 - <i/>{:: transition} Arid Badlands, <i/>{:: transition} Arid Hills, <i/>{:: transition} Sledge's Safehouse
   - <i/>{:: progress} Sledge: To The Safe House
 - <i/>{:: transition} Arid Badlands
@@ -165,17 +148,16 @@
   - <i/>{:: progress} Sledge: Battle For The Badlands
   - Pick up and dup: Sledge's Shotgun 
 - <i/>{:: transition} Arid Badlands
-{: .pink}
 </div>
 
-<div class="crimson">
+{:.route__chapter}
+<div>
 - **R** Drives to Dahl Headlands "gate", **L** drives to Fyrestone
 - **L** <i/>{:: turnin} Sledge: Battle For The Badlands
 - **L** <i/>{:: accept} Leaving Fyrestone
 - **R** <i/>{:: progress} Leaving Fyrestone
 - **R** <i/>{:: transition} Dahl Headlands
 ^
-{: .aqua}
 - **R**:
   - <i/>{:: turnin} Leaving Fyrestone
   - <i/>{:: accept} Big Game Hunter
@@ -184,7 +166,6 @@
   - Leave the car at the Skagzilla exit
   - Then head to **R** at Lucky's "place"
 ^
-{: .green}
 - **R** <i/>{:: progress} Getting Lucky
 - <i/>{:: turnin} Getting Lucky
 - <i/>{:: complete} Powering The Fast Travel Network
@@ -193,21 +174,19 @@
 - Buy Shotgun SDU
 - <i/>{:: accept} Road Warriors: Hot Shots
 ^
-{: .gold}
 - Transport to left behind car
 - Farm Skagzilla until level 24 (23.5?)
   - **R** drives to the Skagzilla exit
   - **L** Farms red chest and shop for Soldier Leader classmod
 - Restart for classmod if missing
-{: .blue}
 </div>
 
-<div class="green">
+{:.route__chapter}
+<div>
 - <i/>{:: complete} Road Warriors: Hot Shots
 - <i/>{:: progress} Road Warriors: Bandit Apocalypse
 - <i/>{:: transition} New Haven
 ^
-{: .cyan}
 - At New Haven:
   - **R** Leaves car at the generator outside New Haven main entrance
   - **L** <i/>{:: turnin} Road Warriors: Bandit Apocalypse
@@ -218,10 +197,10 @@
   - **L** <i/>{:: turnin} Power To The People
   - **L** <i/>{:: accept} Seek Out Tannis
 - **R** <i/>{:: transition} Rust Commons West once **L** sits in her car again
-{: .pink}
 </div>
 
-<div class="red">
+{:.route__chapter}
+<div>
 - **L** Drives to The Underpass
   - **L** <i/>{:: turnin} Seek Out Tannis
   - **L** <i/>{:: accept} Meet 'Crazy' Earl
@@ -229,7 +208,6 @@
 - **R** Drives to Trecher's Landing transition point (<i/>{:: transition})
   - **R** <i/>{:: transition} Trecher's Landing once **L** is done
 ^
-{: .aqua}
 - Start checking for Corrosive, better Bouncing Betty, and Shield
 - <i/>{:: warp} The Outeryard
 - <i/>{:: transition} Earl's Scrapyard
@@ -238,19 +216,17 @@
 - <i/>{:: accept} Hair Of The Dog
 - <i/>{:: warp} Trecher's Landing
 ^
-{: .green}
 - <i/>{:: progress} Hair Of The Dog
 - <i/>{:: warp} Earl's Scrapyard
 ^
-{: .gold}
 - <i/>{:: turnin} Hair Of The Dog
 - <i/>{:: accept} The Next Piece
 - <i/>{:: warp} The Underpass
 - Drive, <i/>{:: transition} Rust Common East
-{: .blue}
 </div>
 
-<div class="orange">
+{:.route__chapter}
+<div>
 - **R** Drives:
   - To Outpost Middle of Nowhere,
   - Then to The Cauldron (by running through Jaynistown)
@@ -259,12 +235,10 @@
 - <i/>{:: progress} The Next Piece
 - <i/>{:: warp} The Underpass
 ^
-{: .cyan}
 - **L** <i/>{:: turnin} The Next Piece
 - **L** <i/>{:: accept} Jaynistown: Secret Rendezvous
 - **R** <i/>{:: warp} The Cauldron
 ^
-{: .pink}
 - From The Cauldron:
   - **L** Heads to Taylor Kobb
   - **R** Heads to Claptrap
@@ -275,10 +249,10 @@
   - **R** <i/>{:: turnin} Jaynistown: A Brother's Love
   - **R** <i/>{:: accept} Jaynistown: Spread The Word
 - **L** <i/>{:: warp} New Haven
-{: .aqua}
 </div>
 
-<div class="green">
+{:.route__chapter}
+<div>
 - **L** Heads to the container
 - **R** <i/>{:: turnin} Jaynistown: Spread The Word
 - **R** <i/>{:: accept} Jaynistown: Getting What's Coming To You
@@ -289,14 +263,13 @@
 - **R** <i/>{:: accept} Smoke Signals: Investigate Old Haven
 - **R** <i/>{:: warp} The Cauldron
 ^
-{: .green}
 - <i/>{:: complete} Jaynistown: Cleaning Up Your Mess
 - <i/>{:: accept} Another Piece Of The Puzzle
 - <i/>{:: transition} Trash Coast
-{: .gold}
 </div>
 
-<div class="orange">
+{:.route__chapter}
+<div>
 - <i/>{:: progress} Another Piece Of The Puzzle
 - <i/>{:: warp} The Underpass
   - **L** <i/>{:: turnin} Another Piece Of The Puzzle
@@ -304,10 +277,10 @@
   - **R** <i/>{:: warp} Trash Coast
 - Farm Rakk Hive twice more
 - <i/>{:: warp} The Cauldron
-{: .blue}
 </div>
 
-<div class="blue">
+{:.route__chapter}
+<div>
 - Drive, <i/>{:: transition} Old Haven
 - <i/>{:: turnin} Smoke Signals: Investigate Old Haven
 - Restart if missing Corrosive, Bouncing Betty, or Shield
@@ -316,30 +289,25 @@
 - Exit Old Haven
 - Drive, <i/>{:: transition} Salt Flats
 ^
-{: .cyan}
 - <i/>{:: complete} The Final Piece
 - <i/>{:: accept} Get Some Answers
 ^
-{: .pink}
 - Restart
-{: .aqua}
 </div>
 
-<div class="crimson">
+{:.route__chapter}
+<div>
 - Drive, <i/>{:: transition} The Backdoor
 ^
-{: .green}
 - Buy Grenade SDU, and optionally Shotgun SDU
 - Kill McCloud
 - <i/>{:: transition} Crimson Fastness
 ^
-{: .gold}
 - **R** <i/>{:: turnin} Get Some Answers
 - **L** <i/>{:: complete} Find the Echo Command Console
 - **L** <i/>{:: accept} Reactivate the Echo Comm System
 - <i/>{:: transition} Crimson Enclave
 ^
-{: .blue}
 - <i/>{:: progress} Reactivate the Echo Comm System
   - **L** Activates the south tower
   - **R** Activates the north tower
@@ -347,7 +315,6 @@
   - **L** Activates the south tower again
   - **R** <i/>{:: transition} Crimson Fastness
 ^
-{: .cyan}
 - **L** dies from Bouncing Betty grenades
   - **L** <i/>{:: turnin} Reactivate the Echo Comm System
 - **R** <i/>{:: transition} Crimson Enclave,
@@ -355,16 +322,14 @@
   - <i/>{:: accept} (Automatically) Find Steele
 - Buy Grenades and HP packs
 - <i/>{:: warp} Salt Flats
-{: .pink}
 </div>
 
-<div class="darkblue">
+{:.route__chapter}
+<div>
 - Drive, <i/>{:: transition} The Descent,
   - <i/>{:: transition} Eridian Promontory,
   - <i/>{:: transition} The Vault
 ^
-{: .aqua}
 - Restart for Skill Reset
 - Kill The Destroyer
-{: .green}
 </div>

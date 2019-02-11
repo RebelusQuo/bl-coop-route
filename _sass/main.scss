@@ -1,57 +1,61 @@
-$col-width: 260px;
+@import 'reset';
+@import 'grays';
 
-* {
-  font-family: sans-serif;
+body {
   font-size: 12px;
-  box-sizing: border-box;
+  line-height: 1.2;
 }
-ul { margin: 10px 0; padding: 3px 5px; list-style: none; }
-ul ul { margin: 0; margin-left: 1em; padding: 0; }
-ul li:before { content: "\2013\020"; /* en-dash, space */ }
+
 .ribbon {
   width: 100%;
   position: fixed;
   top: 0;
   background-color: white;
 }
+
 .specs {
   width: 1440px;
   height: 155px;
+  display: flex;
 }
-.specs:before,
-.specs:after { content: " "; display: table }
-.specs:after { clear: both; }
 .column {
-  padding: 10px;
+  padding: 1em;
   min-width: 150px;
-  height: 100%;
-  position: relative;
-  float: left;
 }
 .lilith { background-color: lightcoral; }
 .roland { background-color: steelblue; }
-.script {
+
+.route {
   margin-top: 155px;
   padding: 5px;
   height: 750px;
   @media (min-height: 970px) { height: 970px; }
   @media (min-height: 1170px) { height: 1170px; }
-  column-width: $col-width;
+  column-width: 300px;
   column-gap: 0;
+
+  &__chapter {
+    padding: 1.5em;
+    background-color: map-get($color-grays, 50);
+    border: 1px solid black;
+
+    & ul {
+      padding: 1em;
+      &:nth-child(odd) { background-color: map-get($color-grays, 120); }
+      &:nth-child(even) { background-color: map-get($color-grays, 140); }
+      
+      li::before {
+        content: "\2013\020"; /* en-dash, space */
+      }
+
+      ul:nth-child(n) {
+        margin-left: 1em;
+        padding: 0;
+        background-color: unset;
+      }
+    }
+  }
 }
-.script div { padding: 0 15px; overflow: auto; }
-.blue { background-color: blue; }
-.darkblue { background-color: darkblue; }
-.green { background-color: darkgreen; }
-.orange { background-color: darkorange; }
-.crimson { background-color: crimson; }
-.red { background-color: red; }
-ul.pink { background-color: lightpink; }
-ul.aqua { background-color: aquamarine; }
-ul.green { background-color: greenyellow; }
-ul.gold { background-color: gold; }
-ul.blue { background-color: lightblue; }
-ul.cyan { background-color: lightcyan; }
 
 .i::before {
   width: 1em;
@@ -66,3 +70,4 @@ ul.cyan { background-color: lightcyan; }
 .complete::before { background-image: url('../icons/complete.svg'); }
 .progress::before { background-image: url('../icons/progress.svg'); }
 .transition::before { background-image: url('../icons/transition.svg'); }
+.warp::before { background-image: url('../icons/warp.svg'); }
