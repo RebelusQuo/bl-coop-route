@@ -4,13 +4,16 @@
 body {
   font-size: 12px;
   line-height: 1.2;
+  font-weight: bold;
 }
 
 h1 {
   margin-top: 1em;
   margin-bottom: 1em;
-  font-weight: bold;
 }
+
+.lilith-text { color: red; }
+.roland-text { color: blue; }
 
 .page {
   display: flex;
@@ -29,6 +32,7 @@ h1 {
 
 .route {
   width: 300px;
+  color: purple;
 
   &__chapter {
     padding: 1.5em;
@@ -42,6 +46,7 @@ h1 {
       
       li::before {
         content: "\2013\020"; /* en-dash, space */
+        color: black;
       }
 
       ul:nth-child(n) {
