@@ -6,8 +6,6 @@
 {:transition: .i.transition}
 {:warp: .i.warp}
 
-**Host Lilith, Client Roland**
-
 {:.route__chapter}
 <div>
 - **L** <i/>{:: challenge} What's in here - 35/50 + chest

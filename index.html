@@ -10,14 +10,20 @@
 </head>
 <body>
 
-<div class="ribbon">
-  <div class="specs">
-    {% capture skills %}{% include_relative _content/skills.md %}{% endcapture %}{{ skills | markdownify }}
-  </div>
-</div>
+<h1>Host Lilith, Client Roland</h1>
 
-<div class="route">
-  {% capture route %}{% include_relative _content/route.md %}{% endcapture %}{{ route | markdownify }}
+<div class="page">
+  <div class="skills skills__lilith">
+    {% capture skills_lilith %}{% include_relative _content/skills_lilith.md %}{% endcapture %}{{ skills_lilith | markdownify }}
+  </div>
+
+  <div class="route">
+    {% capture route %}{% include_relative _content/route.md %}{% endcapture %}{{ route | markdownify }}
+  </div>
+
+  <div class="skills skills__roland">
+    {% capture skills_roland %}{% include_relative _content/skills_roland.md %}{% endcapture %}{{ skills_roland | markdownify }}
+  </div>
 </div>
 
 </body>

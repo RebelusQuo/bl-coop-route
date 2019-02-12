@@ -6,33 +6,29 @@ body {
   line-height: 1.2;
 }
 
-.ribbon {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  background-color: white;
+h1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: bold;
 }
 
-.specs {
-  width: 1440px;
-  height: 155px;
+.page {
   display: flex;
 }
-.column {
-  padding: 1em;
-  min-width: 150px;
+
+.skills {
+  padding: 1.5em;
+  width: 200px;
+  &__lilith { background-color: lightcoral; }
+  &__roland { background-color: steelblue; }
+
+  ul {
+    margin-bottom: 1em;
+  }
 }
-.lilith { background-color: lightcoral; }
-.roland { background-color: steelblue; }
 
 .route {
-  margin-top: 155px;
-  padding: 5px;
-  height: 750px;
-  @media (min-height: 970px) { height: 970px; }
-  @media (min-height: 1170px) { height: 1170px; }
-  column-width: 300px;
-  column-gap: 0;
+  width: 300px;
 
   &__chapter {
     padding: 1.5em;
