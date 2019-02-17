@@ -12,7 +12,7 @@
 - {:.roland-text} Trigger Claptrap zones
 - {:.lilith-text} <i/>{:: challenge} *Relentless*
   - {:.roland-text} Tries it if **L** gets it before the crawl gate
-- {:.lilith-text} Picks up chest loot: Hyperion pistol (the red one)
+- {:.lilith-text} Picks up Hyperion pistol (red one) from chest
 ^
 - <i/>{:: turnin} *Fresh off the Bus*
 - <i/>{:: accept} *The Doctor Is In*
@@ -45,8 +45,7 @@
 <div>
 - {:.lilith-text} <i/>{:: challenge} *What's in here* - 50/50
 - <i/>{:: progress} *Blinding Nine-Toes*
-  - {:.lilith-text} <i/>{:: challenge} *Chain Killer*
-  - {:.roland-text} Assists **L**
+  - {:.lilith-text} <i/>{:: challenge} *Chain Killer* (Assisted by **R**)
 - **R** Heads to Fyrestone, **L** to T.K. Baha
 ^
 - {:.roland-text} <i/>{:: turnin} *Blinding Nine-Toes*
@@ -82,7 +81,7 @@
 ^
 - Use cars to <i/>{:: progress} *Bone Head's Theft*
   - Pick up: Bone Shredder
-  - Dup on next restart once having both this and Bouncing Betty
+  - Dup Bone Shredder, Bouncing Betty together on subsequent restart
 - <i/>{:: turnin} *Bone Head's Theft*
 - <i/>{:: complete} *The Piss Wash Hurdle*
   - <i/>{:: challenge} *Orbit Achieved*
@@ -131,7 +130,7 @@
 ^
 - Farm until level 16
   - Buy Shield, Grenade SDU
-  - Pick up: Shotgun ~280+ dmg, decent fire rate (dup)
+  - Pick up and dup Shotgun ~280+ dmg with decent fire rate
 </div>
 
 {:.route__chapter}
@@ -161,22 +160,22 @@
   - {:.roland-text} <i/>{:: accept} *Big Game Hunter*
   - {:.roland-text} <i/>{:: accept} *Getting Lucky*
 - {:.lilith-text} <i/>{:: progress} *Big Game Hunter* (get bait)
-  - {:.lilith-text} Leave the car at the Skagzilla exit
+  - {:.lilith-text} Leave the car near the Skagzilla exit
   - {:.lilith-text} Then head to **R** at Lucky's "place"
 ^
 - {:.roland-text} <i/>{:: progress} *Getting Lucky*
 - <i/>{:: turnin} *Getting Lucky*
 - <i/>{:: complete} *Powering The Fast Travel Network*
-  - {:.lilith-text} Drives (with the other car) to Dahl Headland Electrical Station
-  - {:.roland-text} jumps off at second Breaker, then first
+  - {:.lilith-text} Drives *with the other car* to Dahl Headland Electrical Station
+  - {:.roland-text} Jumps off at second Breaker, then first
 - Buy Shotgun SDU
 - <i/>{:: accept} *Road Warriors: Hot Shots*
 ^
 - Transport to left behind car
-- Farm Skagzilla until level 24 (23.5?)
-  - {:.roland-text} drives to the Skagzilla exit
-  - {:.lilith-text} Farms red chest and shop for Soldier Leader classmod
-- Restart for classmod if missing
+- Farm Skagzilla until level ~23.7
+  - {:.roland-text} Drives to the Skagzilla arena exit
+  - {:.lilith-text} Farms red chest and shop for Leader/Catalyst classmods
+- Restart for Leader classmod if still missing
 </div>
 
 {:.route__chapter}
@@ -316,7 +315,7 @@
 - {:.lilith-text} dies from Bouncing Betty grenades
   - {:.lilith-text} <i/>{:: turnin} *Reactivate the Echo Comm System*
 - {:.roland-text} <i/>{:: transition} Crimson Enclave,
-  - Then <i/>{:: transition} Crimson Fastness, and back to <i/>{:: transition} Crimson Enclave
+  - <i/>{:: transition} Crimson Fastness, <i/>{:: transition} Crimson Enclave
   - <i/>{:: accept} (Automatically) *Find Steele*
 - Buy Grenades and HP packs
 - <i/>{:: warp} Salt Flats
